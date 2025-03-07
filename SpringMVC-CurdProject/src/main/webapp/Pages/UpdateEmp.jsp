@@ -28,7 +28,7 @@
 
 	<div class="card-body"> 
 
-	<form action="modify" method="POST">
+	<form action="<%=request.getContextPath()%>/employee/modify" method="POST">
 
 	 <pre>
 	    ID    : <input type="text" name="empId" readonly="readonly" class="form-control" value="${employee.empId}"/>
